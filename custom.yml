@@ -5,6 +5,7 @@ feeds:
     uri: https://github.com/fw876/helloworld.git
     branch: master
 packages:
+  - luci-app-passwall2
   - luci-app-ssr-plus
   - luci-app-ddns
   - ddns-scripts
@@ -18,7 +19,6 @@ packages:
   - wireguard
   - luci-app-eqos
   - wireguard-tools
-
 
 
 diffconfig: |
